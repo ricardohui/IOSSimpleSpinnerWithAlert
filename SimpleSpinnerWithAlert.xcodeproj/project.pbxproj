@@ -47,6 +47,7 @@
 		A70DAA1722581B2B0044CA01 /* SimpleSpinnerWithAlertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleSpinnerWithAlertUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A70DAA1B22581B2B0044CA01 /* SimpleSpinnerWithAlertUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleSpinnerWithAlertUITests.swift; sourceTree = "<group>"; };
 		A70DAA1D22581B2B0044CA01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A70DAA2A22581DC60044CA01 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -297,6 +298,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				A70DAA0022581B260044CA01 /* Base */,
+				A70DAA2A22581DC60044CA01 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -435,6 +437,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L6682JJSD3;
 				INFOPLIST_FILE = SimpleSpinnerWithAlert/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,6 +456,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L6682JJSD3;
 				INFOPLIST_FILE = SimpleSpinnerWithAlert/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
